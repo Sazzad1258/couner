@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="ALIANZA">
+    <meta name="description" content="ALIANZA">
+    <meta name="keywords" content="blog, article, education">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <meta name="language" content="en"> 
+    <meta name="Sazzad Hossen" content="1 days"> 
+    <title>jQuery UI Autocomplete</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css"> 
+</head>
+<body>
+<section>
+  <div class="container">
+    <div class="container">
+    <div id="draggable" class="">
+          <img src="imeges/my image.jpg" alt="Sazzad]">
+</div>
+</div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+  </div>
+</div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <form action="#">
+        <div class="mb-3">
+          <label for="c_name" class="form-label">enter your name</label>
+          <input class="form-control" id="c_name" type="text">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="widget">
+  <h1>Checkbox and radio button widgets</h1>
+ 
+  <h2>Radio Group</h2>
+  <fieldset>
+    <legend>Select a Location: </legend>
+    <label for="radio-1">New York</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Paris</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">London</label>
+    <input type="radio" name="radio-1" id="radio-3">
+  </fieldset>
+ 
+  <h2>Checkbox</h2>
+  <fieldset>
+    <legend>Hotel Ratings: </legend>
+    <label for="checkbox-1">2 Star</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">3 Star</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">4 Star</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">5 Star</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+  </fieldset>
+ 
+  <h2>Checkbox nested in label</h2>
+  <fieldset>
+    <legend>Bed Type: </legend>
+    <label for="checkbox-nested-1">2 Double
+      <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+    </label>
+    <label for="checkbox-nested-2">2 Queen
+      <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+    </label>
+    <label for="checkbox-nested-3">1 Queen
+      <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+    </label>
+    <label for="checkbox-nested-4">1 King
+      <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+    </label>
+  </fieldset>
+</div>
+  </div>
+</section>
+ <section>
+  <div class="container">
+    <div class="widget">
+  <h1>Controlgroup</h1>
+  <fieldset>
+    <legend>Rental Car</legend>
+    <div class="controlgroup">
+      <select id="car-type">
+        <option>Compact car</option>
+        <option>Midsize car</option>
+        <option>Full size car</option>
+        <option>SUV</option>
+        <option>Luxury</option>
+        <option>Truck</option>
+        <option>Van</option>
+      </select>
+      <label for="transmission-standard">Standard</label>
+      <input type="radio" name="transmission" id="transmission-standard">
+      <label for="transmission-automatic">Automatic</label>
+      <input type="radio" name="transmission" id="transmission-automatic">
+      <label for="insurance">Insurance</label>
+      <input type="checkbox" name="insurance" id="insurance">
+      <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+      <input id="horizontal-spinner" class="ui-spinner-input">
+      <button>Book Now!</button>
+    </div>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Rental Car</legend>
+    <div class="controlgroup-vertical">
+      <select>
+        <option>Compact car</option>
+        <option>Midsize car</option>
+        <option>Full size car</option>
+        <option>SUV</option>
+        <option>Luxury</option>
+        <option>Truck</option>
+        <option>Van</option>
+      </select>
+      <label for="transmission-standard-v">Standard</label>
+      <input type="radio" name="transmission-v" id="transmission-standard-v">
+      <label for="transmission-automatic-v">Automatic</label>
+      <input type="radio" name="transmission-v" id="transmission-automatic-v">
+      <label for="insurance-v">Insurance</label>
+      <input type="checkbox" name="insurance" id="insurance-v">
+      <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+      <input id="vertical-spinner" class="ui-spinner-input">
+      <button id="book">Book Now!</button>
+    </div>
+  </fieldset>
+</div>
+  </div>
+ </section>
+ <section class="counter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="item text-center bg-danger">
+          <h2>followers</h2>
+          <h3 class="counter">1,12,25,466</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ 
+
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="vandom/Counter-Up/jquery.counterup.min.js"></script>
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

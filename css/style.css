@@ -1,0 +1,32 @@
+ #draggable { 
+    width: 300px;
+    height: auto;             
+    background-color: red;
+    color: aliceblue;}
+  #draggable img { 
+    width: 100%;
+              } 
+  #drag { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; float: left; 
+    margin: 10px 10px 10px 0; }
+     .ui-controlgroup-vertical {
+      width: 150px;
+    }
+  .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+  .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+      text-align: center;
+    }
+  #car-type-button {
+      width: 120px;
+    }
+  .ui-controlgroup-horizontal .ui-spinner-input {
+      width: 20px;
+    }
+ .item{
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding: 50px;
+ }
+            
